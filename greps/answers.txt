@@ -1,21 +1,42 @@
 # Part 1
 ### a)
+File1:
+beedrill:
+ggrep -P "bee|drill$" filescan_00.1> ../captured/beedrill.txt
+blastoise:
+ggrep -P "blas" filescan_00.1> ../captured/blastoise.txt
 bulbasaur:
-ggrep -P "bulb|asaur$" filescan_00.1;
+ggrep -P "bulb|asaur$" filescan_00.1>../captured/bulbasaur.txt
+butterfree:
+ggrep "butt" filescan_00.1 > ../captured/butterfree.txt
 
+File2:
+charizard:
+ggrep -P "izard$" filescan_00.2> ../captured/charizard.txt
+charmander:
+ggrep -P "mander$" filescan_00.2> ../captured/charmander.txt
+charmeleon:
+ggrep -P "meleon$" filescan_00.2> ../captured/charmeleon.txt
 
+File3:
+ivysaur:
+ggrep -P "ivys" filescan_00.3> ../captured/ivysaur.txt
+jigglypuff:
+ggrep -P "jigg" filescan_00.3> ../captured/jigglypuff.txt
+meowth:
+ggrep -P "meow" filescan_00.3> ../captured/meowth.txt
+pikachu:
+ggrep -P "chu$" filescan_00.3 > ../captured/pikachu.txt
 
-
-
-### b)
-
-
-
-### c)
-
-
-
-
+File4:
+psyduck:
+ggrep -P "psyd" filescan_00.4 > ../captured/psyduck.txt
+squirtle:
+ggrep -P "squi" filescan_00.4 > ../captured/squirtle.txt
+venusaur:
+ggrep -P "venu" filescan_00.4 > ../captured/venusaur.txt
+wartortle:
+ggrep -P "wart" filescan_00.4 > ../captured/wartortle.txt
 
 
 
